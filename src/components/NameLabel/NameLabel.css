@@ -1,0 +1,14 @@
+@import '../variables.css';
+
+.NameLabel {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font:inherit;
+    font-family: sans-serif;
+    font-size:425%;
+}
