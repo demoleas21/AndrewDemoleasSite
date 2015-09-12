@@ -8,6 +8,7 @@ import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
 import NameLabel from '../NameLabel';
+import PositionLabel from '../PositionLabel';
 
 @withContext
 @withStyles(styles)
@@ -22,6 +23,7 @@ class App {
     return !this.props.error ? (
       <div>
       <NameLabel />
+      <PositionLabel />
       </div>
     ) : this.props.children;
   }
