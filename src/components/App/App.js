@@ -7,6 +7,7 @@ import withStyles from '../../decorators/withStyles';
 import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
+import NameLabel from '../NameLabel';
 
 @withContext
 @withStyles(styles)
@@ -20,7 +21,7 @@ class App {
   render() {
     return !this.props.error ? (
       <div>
-
+      <NameLabel />
       </div>
     ) : this.props.children;
   }

@@ -1,0 +1,6 @@
+{
+  "name": "NameLabel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./NameLabel.js"
+}
