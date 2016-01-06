@@ -10,3 +10,4 @@ install:
 
 script:
     - pylint andrewsite/andrewsite/
+    - pylint andrewsite/andrew
