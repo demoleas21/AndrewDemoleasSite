@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    {% include "head.html" %}
+    <body>
+    {% include "navigation.html" %}
+        <div class="page-content">
+            <div class="wrapper">
+                <div class="home">
+                    <div class="page-section" id="home">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1 id="small">Hi,</h1>
+                                <h1 id="small">I'm</h1>
+                                <h1>ROBERT KIM.</h1>
+                                <p><span id="typed"></span></p>
+                                <p id="blog">Check out my <a href="/blog" target="_blank">blog</a>!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-section" id="skills">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1>SKILLS</h1>
+                                {% include "skillset.html" %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-section" id="projects">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1>PROJECTS</h1>
+                                {% include "projects.html" %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-section" id="experience">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1>EXPERIENCE</h1>
+                                {% include "experience.html" %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-section" id="education">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1>EDUCATION</h1>
+                                {% include "education.html" %}
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="page-section" id="contact">
+                        <div class="container">
+                            <div class="text-container">
+                                <h1>CONTACT</h1>
+                                {% include "contact.html" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    {% include "foot.html" %}
+</html>
